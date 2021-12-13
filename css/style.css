@@ -1,0 +1,82 @@
+ /*  GENERAL CSS */
+ 
+ *,
+ *::after,
+ *::before {
+     box-sizing: border-box;
+ }
+ 
+ body {
+     font-family: 'Livvic', sans-serif;
+     background: #014E56;
+ }
+ 
+ img {
+     display: inline-block;
+     max-width: 100%;
+ }
+ 
+ .cotainer {
+     width: 1150px;
+ }
+ /* HEADER */
+ 
+ .logo {
+     width: 150px;
+ }
+ /* MEET SECTION */
+ 
+ .section {
+     padding: 140px 0;
+     background-color: #004047;
+ }
+ 
+ .section__heading {
+     margin: 0;
+     margin-bottom: 64px;
+     padding: 0;
+     font-weight: bold;
+     font-size: 48px;
+     line-height: 48px;
+     text-align: center;
+     color: #FFFFFF;
+ }
+ 
+ .card-group {
+     padding-left: -30px !important;
+     padding-right: -30px !important;
+     margin-bottom: -50px !important;
+ }
+ 
+ .card {
+     margin-bottom: 50px;
+     margin-left: 30px;
+     width: 350px;
+     background-color: #012F34;
+ }
+ 
+ .last-card {
+     padding-left: 48px;
+     padding-right: 48px;
+ }
+ 
+ .card-text-1 {
+     margin: 0;
+     margin-bottom: 5px;
+     padding: 0;
+     font-weight: bold;
+     font-size: 18px;
+     line-height: 28px;
+     text-align: center;
+     color: #79C8C7;
+ }
+ 
+ .card-text-2 {
+     margin: 0;
+     padding: 0;
+     color: #fff;
+ }
+ 
+ .oval {
+     bottom: -45px;
+ }
